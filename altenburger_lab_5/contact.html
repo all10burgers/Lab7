@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>contact.html</title>
+        <link href="mystyle.css"
+            type="text/css"
+            rel="stylesheet">
+    </head>
+    <body>
+       <table>
+        <tr>
+            <th></th>
+            <td><form
+                action="./save_contact.php"
+                method="get"
+                id="email">
+                
+                <p class="emailForm">Email:
+                    <input type="text" name="Email"
+                            size="15" maxlength="45"
+                            class="contactForm" />
+                </p>
+            </form></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td><form>
+                <p class="nameForm">Name:
+                    <input type="text" name="Name"
+                            size="15" maxlength="45" />
+                </p>
+            </form></td>
+        </tr>
+        <tr>
+            <th></th>
+            <td><form id="number">
+                <p class="numberForm">Phone Number:
+                    <input type="text" name="Phone Number"
+                            size="15" maxlength="45" />
+                </p>
+            </form></td>
+        </tr>
+        <tr>
+            <td><form>
+                <p class="mobileForm">Mobile:
+                    <input type="radio" name="Mobile"
+                            value="Mobile" unchecked="unchecked" />
+                </p>
+            </form></td>
+            <td><form>
+                <p class="homeForm">Home:
+                    <input type="radio" name="Home"
+                            value="Home" unchecked="unchecked" />
+                </p>
+            </form></td>
+            <td><form>
+                <p class="otherForm">Other:
+                    <input type="radio" name="Other"
+                            value="Other" unchecked="unchecked" />
+                </p>
+            </form></td>
+            <td>
+                <form>
+                    <p class="resumeForm">Resume:
+                        <input type="file" name="user-resume"/>
+                        <input type="submit" value="upload"/>
+                    </p>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <form>
+                <input type="submit"
+                    value="Submit" />
+            </form>
+            
+        </tr>
+       </table>
+    </body>
+</html>

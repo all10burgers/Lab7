@@ -1,0 +1,81 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;}
+
+
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5;
+    border-width: 25;
+    border-color: orange;
+    border-style: dashed;}
+
+p {
+    color: blue;
+    background-color: orange;
+    
+}
+
+img {
+    height: 500px;
+    width: 375px;
+}
+
+li {
+    display: block;
+    margin-right: 10px;
+}
+
+a:link {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: deeppink;
+    text-decoration: underline;
+}
+.indexParagraph {
+    position: relative;
+    top: 0px;
+}
+.emailForm {
+    font-family: 'Courier New', Courier, monospace;
+}
+.nameForm {
+    font-family: 'Courier New', Courier, monospace;
+}
+.numberForm {
+    font-family: 'Courier New', Courier, monospace;
+}
+.mobileForm {
+    font-family: 'Courier New', Courier, monospace;
+}
+.homeForm {
+    font-family: 'Courier New', Courier, monospace;
+}
+.otherForm {
+    font-family: 'Courier New', Courier, monospace;
+}
+.resumeForm {
+    font-family: 'Courier New', Courier, monospace;
+}
+#number {
+    border: 0svh;
+}
+#email {
+    color: black;
+}
+.indexParagraph {
+    word-spacing: normal;
+    position: relative;
+}
+.aboutP {
+    word-spacing: normal;
+    position: inherit;
+}
